@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+/* navbar  */
+.border:hover{
+    border: 2px solid white;
+}
+
+.navbar-brand{
+    color: black;
+    font-family: "Titillium Web";
+    font-weight: 400;
+}
+
+.nav-link{
+    color: black;
+    font-family: "Titillium Web";
+    font-weight: 400;
+}
+
+.nav-signin a{
+    color: white;
+}
+
+.nav-cart i{
+    font-size: 32px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+} 
+
+span{
+    font-size: 0.7rem;
+}
+
+
+/* carousel css */
+
+#carouselExampleCaptions img{
+    max-height: 550px; /* Set the maximum height */
+    width: auto; /* Ensure the width adjusts proportionally */
+}
+
+.card-img-top{      
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.carousel-heading{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.carousel-paragraph{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+

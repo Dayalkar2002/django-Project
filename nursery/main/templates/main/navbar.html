@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'main/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style = "background-color: #2FD477;">
+        <a class="navbar-brand" href="#">
+            <img src="{% static 'main/images/logo.webp' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+            Vanasपती 
+        </a>  
+        <a class="navbar-brand" href="#" style="color: black;">Image Gallery</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">E-Store<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conatct Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Supply of plants</a>
+                <a class="dropdown-item" href="#">Irrigation</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Rent A Plant</a>
+              </div>
+            </li>
+            
+          </ul>
+          <form class="form-inline  my-lg-0 mr-auto" style="margin-left: 20%;">
+            <input class="form-control custom-search-bar mr-5 " type="search" placeholder="Search" aria-label="Search" style="width:400px;" >
+            <button class="btn btn-outline-success my-2 my-sm-0" style="color: black;background-color: aliceblue;" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+    <script src="{% static 'main/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'main/js/jquery.js' %}"></script>
+    <script src="{% static 'main/js/popper.js' %}"></script>
+</body>
+</html>
