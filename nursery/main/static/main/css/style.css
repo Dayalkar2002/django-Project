@@ -5,6 +5,9 @@
 
 
 /* navbar  */
+.navbar{
+    height: 50px;
+}
 .border:hover{
     border: 2px solid white;
 }
@@ -15,7 +18,7 @@
 }
 
 .nav-link{
-    color: black;
+    color: white;
     font-family: "Titillium Web";
     font-weight: 400;
 }
@@ -113,5 +116,79 @@ span{
 
 
 /* Signin */
+.signin{
+    margin-top: 50px;
+    margin-bottom: 220px;
+}
 
 
+/* Footer */
+
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top:15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 220px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul,.footer-link{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 1px white solid;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4{
+    background-color: #2a686d;
+    color: white;
+    height: 60px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px ;
+    
+}
