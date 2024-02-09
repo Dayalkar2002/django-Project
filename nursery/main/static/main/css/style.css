@@ -116,10 +116,7 @@ span{
 
 
 /* Signin */
-.signin{
-    margin-top: 50px;
-    margin-bottom: 220px;
-}
+
 
 
 /* Footer */
@@ -192,3 +189,12 @@ ul,.footer-link{
     padding-top: 5px ;
     
 }
+
+
+/* cards */
+
+.cards{
+    margin-right: 0px; 
+    margin-left: 0px;
+}
+
